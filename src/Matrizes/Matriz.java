@@ -10,4 +10,8 @@ public class Matriz {
         this.coluna = coluna;
         this.matriz = new int[linha][coluna];
     }
+
+    public void preencherMatriz(){
+        System.out.println("teste  asdasd");
+    }
 }

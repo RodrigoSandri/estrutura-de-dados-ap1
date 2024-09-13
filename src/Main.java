@@ -5,6 +5,8 @@ public class Main {
     {
         Matriz matriz1 = new Matriz(4, 5 );
 
+        matriz1.preencherMatriz();
+
         System.out.println("Teste");
     }
 }
