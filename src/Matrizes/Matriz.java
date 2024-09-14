@@ -27,11 +27,11 @@ public class Matriz {
             linha = l--;
         if (c != 0)
             coluna = c--;
-//        if (linha >= 0 && this.linha < linha && coluna >= 0 && this.coluna < coluna){
-        this.matriz[linha][coluna] = valor;
-//        } else {
-//            System.out.println("Posição inválidade!!!");
-//        }
+        if (linha >= 0 && this.linha < linha && coluna >= 0 && this.coluna < coluna){
+            this.matriz[linha][coluna] = valor;
+        } else {
+            System.out.println("Posição inválidade!!!");
+        }
     }
 
     public void removerElemento(int linha, int coluna){
